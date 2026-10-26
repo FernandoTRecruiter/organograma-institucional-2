@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Organograma institucional · C. &amp; Paoli corp.</title>
+<meta name="description" content="Organograma interativo com dados fictícios: busca, filtros, destaques, modo compacto e espalhado, lista no celular, CSV e impressão. Em português e inglês.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%2317151F'/%3E%3Crect x='14' y='7' width='12' height='8' rx='2.5' fill='%23B8ACFF'/%3E%3Cpath d='M20 15v5M9.5 20h21M9.5 20v5M20 20v5M30.5 20v5' stroke='%23B8ACFF' stroke-width='1.6' fill='none' opacity='.7'/%3E%3Crect x='5' y='25' width='9' height='8' rx='2.5' fill='%23B8ACFF' opacity='.85'/%3E%3Crect x='15.5' y='25' width='9' height='8' rx='2.5' fill='%23B8ACFF' opacity='.85'/%3E%3Crect x='26' y='25' width='9' height='8' rx='2.5' fill='%23B8ACFF' opacity='.85'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/organograma.css">
+</head>
+<body>
+<div class="app" id="app"><p style="padding:40px;font-family:system-ui">Carregando o organograma…</p></div>
+<noscript><p style="padding:40px;font-family:system-ui">Este organograma é montado no navegador: ative o JavaScript para ver.</p></noscript>
+<!-- Ordem importa: empresa fictícia -> árvore -> textos -> layout -> câmera -> moldes -> tela.
+     Para fixar dado próprio sem colar toda vez, ponha ANTES do app.js um script com
+     window.ORGANOGRAMA_DADOS = [...] (formato no README). -->
+<script src="js/dados.js"></script>
+<script src="js/estrutura.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/visual.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

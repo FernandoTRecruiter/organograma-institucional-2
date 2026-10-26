@@ -1,0 +1,7 @@
+# fotos de conferência que o teste gera (as do README ficam em docs/img/)
+tests/fotos/
+__pycache__/
+# dado próprio fixo no código (ver README): nunca vai para o repositório
+js/dados-proprios.js
+*.local.csv
+*.local.json
